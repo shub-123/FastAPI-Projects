@@ -6,7 +6,7 @@ from fastapi import FastAPI, HTTPException
 app = FastAPI()
 
 db: List[User] = [
-    User(id=UUID("b8764374-828c-460e-8405-2903f8e1df5f"), first_name="Shubham", last_name="Raina", gender=Gender.male, roles=[Roles.user]),
+    User(id=UUID("b8764374-828c-460e-8405-2903f8e1df5f"), first_name="Manish", last_name="Raina", gender=Gender.male, roles=[Roles.user]),
     User(id=UUID("552565fd-bd72-4ad3-bc86-0fd5e3537ee9"), first_name="Kalyani", last_name="Bodhankar", gender=Gender.female, roles=[Roles.admin])
 ]
 
